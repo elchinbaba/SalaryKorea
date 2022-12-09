@@ -1,5 +1,10 @@
+import Input.Input;
+import Worker.Worker;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Worker[] workers = Worker.convertInputToWorker(Input.WORKERS);
+
+
     }
 }
