@@ -14,8 +14,39 @@ public class Worker {
         this.suDang = suDang;
     }
 
+    public String getName() {
+        return name;
+    }
+
     public int getHoBong() {
         return hoBong;
+    }
+
+    public int getSuDang() {
+        return suDang;
+    }
+
+    public int getGross() {
+        return gross;
+    }
+
+    public int getTax() {
+        return tax;
+    }
+
+    public int getNet() {
+        return net;
+    }
+
+    public void setGross(int gross) {
+        this.gross = gross;
+    }
+    public void setTax(int tax) {
+        this.tax = tax;
+    }
+
+    public void setNet(int net) {
+        this.net = net;
     }
 
     public static Worker convertInputToWorker(String[] input) {

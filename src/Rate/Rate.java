@@ -9,6 +9,15 @@ public class Rate {
         this.gross = gross;
         this.tax = tax;
     }
+
+    public int getGross() {
+        return gross;
+    }
+
+    public double getTax() {
+        return tax;
+    }
+
     public static Rate getRate(Worker worker) {
         int gross = getGross(HoBongRates.findById(worker.getHoBong()));
         double tax = getTax(gross);
