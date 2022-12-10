@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8787fa65-a9b7-4e50-b198-7b963c37c00c" name="Changes" comment="Added new test data, synchronized the Input to names">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Rate/TaxRates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rate/TaxRates.java" afterDir="false" />
+    <list default="true" id="8787fa65-a9b7-4e50-b198-7b963c37c00c" name="Changes" comment="update in TaxRates">
+      <change beforePath="$PROJECT_DIR$/src/Input/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Input/Input.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670658584112</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update in TaxRates">
+      <created>1670658899761</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670658899761</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -96,6 +102,7 @@
     <MESSAGE value="Input, Worker, Rates have been implemented, Compute has been added" />
     <MESSAGE value="Compute and other java files (Output, Total) have been implemented" />
     <MESSAGE value="Added new test data, synchronized the Input to names" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added new test data, synchronized the Input to names" />
+    <MESSAGE value="update in TaxRates" />
+    <option name="LAST_COMMIT_MESSAGE" value="update in TaxRates" />
   </component>
 </project>
