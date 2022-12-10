@@ -52,7 +52,7 @@ public class Total {
         Total total = Compute.computeTotal(workers);
 
         System.out.println("TOTAL          " + String.format("%8d", total.getSuDang())
-                + "   " + String.format("%7d", total.getGross()) + "   " + String.format("%6d", total.getTax())
+                + "   " + String.format("%7d", total.getGross()) + "    " + String.format("%6d", total.getTax())
                 + "   " + String.format("%8d", total.getNet())
         );
     }
